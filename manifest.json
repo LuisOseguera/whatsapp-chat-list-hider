@@ -1,0 +1,28 @@
+{
+    "name": "WhatsApp Chat Hider",
+    "description": "Extension that hides WhatsApp chats list.",
+    "version": "0.1",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_icon": {
+            "16": "/images/detective16.png",
+            "32": "/images/detective32.png",
+            "48": "/images/detective48.png",
+            "128": "/images/detective128.png"
+        },
+        "default_title": "WhatsApp Chat Hider"
+    },
+    "icons": {
+        "16": "/images/detective16.png",
+        "32": "/images/detective32.png",
+        "48": "/images/detective48.png",
+        "128": "/images/detective128.png"
+    }
+}
